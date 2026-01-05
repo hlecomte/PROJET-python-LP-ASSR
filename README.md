@@ -234,7 +234,7 @@ Pour arrêter : `Ctrl+C`
 monitoring-reseau/
 │
 ├── .venv                     # Variables d'environnement 
-├── .env                      # Variables d'environnement (mot de passe)
+├── config.py                      # Variables d'environnement (mot de passe)
 ├── requirements.txt         # Dépendances Python
 ├── README.md                # Ce fichier
 |
