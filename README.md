@@ -80,8 +80,8 @@ pip --version
 ### 1. Cloner ou télécharger le projet
 
 ```bash
-git clone https://github.com/votre-repo/monitoring-reseau.git
-cd monitoring-reseau
+git clone https://github.com/hlecomte/PROJET-python-LP-ASSR
+cd PROJET-python-LP-ASSR
 ```
 
 Ou télécharger le ZIP et extraire.
