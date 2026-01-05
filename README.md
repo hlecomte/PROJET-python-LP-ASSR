@@ -233,23 +233,14 @@ Pour arrêter : `Ctrl+C`
 ```
 monitoring-reseau/
 │
+├── .venv                     # Variables d'environnement 
 ├── .env                      # Variables d'environnement (mot de passe)
-├── .gitignore               # Fichiers à ignorer par Git
 ├── requirements.txt         # Dépendances Python
 ├── README.md                # Ce fichier
-│
-├── config.py                # Configuration centralisée
+|
 ├── monitoring.py            # Classe principale de surveillance
 ├── cli.py                   # Interface utilisateur (menu)
 ├── scheduler.py             # Surveillance automatique 24/7
-│
-├── test_monitoring.py       # Tests unitaires
-├── create_tables.sql        # Script de création des tables
-├── insert_test_data.sql     # Données de test
-│
-└── rapports/                # Dossier des rapports générés
-    ├── rapport_alertes_20250104_153045.csv
-    └── rapport_alertes_20250104_153045.json
 ```
 
 ## 🏗️ Architecture
